@@ -6,7 +6,7 @@ const session = require('express-session')
 
 
 const app = express()
-const port = process.env.port || 3000
+var PORT = process.env.PORT || 3000
 
 // ---- MID ------
 
@@ -37,4 +37,4 @@ require('./modules/routing')(app, path, __dirname, bazaDanych) // ==> (app,path.
 
 
 
-app.listen(port, () => console.log(`Example app listening on port ${port}!`))
+app.listen(PORT, () => console.log(`Example app listening on port ${PORT}!`))
