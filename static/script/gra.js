@@ -167,6 +167,6 @@ const gra = {
                     document.getElementById("dice").remove();
                 }
             }
-        }, 500)
+        }, 1000)
     },
 }
