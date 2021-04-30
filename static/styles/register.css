@@ -1,0 +1,36 @@
+body {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+
+.container {
+    align-self: center;
+}
+
+input {
+    width: 300px;
+    height: 30px;
+    border-radius: 6px;
+    border: 1px solid rgb(255, 255, 255);
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+}
+
+button {
+    width: 90px;
+    height: 30px;
+    background-color: #000000;
+    border: 1px solid white;
+    color: rgb(255, 255, 255);
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 6px;
+}

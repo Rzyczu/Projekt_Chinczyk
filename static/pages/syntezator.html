@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var synth = window.speechSynthesis;
+        var voices = [];
+        function populateVoiceList() {
+            voices = synth.getVoices();
+            console.log(voices);
+        }
+
+        if (speechSynthesis.onvoiceschanged !== undefined)
+            speechSynthesis.onvoiceschanged = populateVoiceList;
+
+        populateVoiceList();
+
+        function speak() {
+            var u = new SpeechSynthesisUtterance();
+            u.pitch = 1;
+            u.rate = 1;
+            u.text = "Idą Święta";
+            u.voice = voices[18];
+            synth.speak(u);
+        }
+
+    </script>
+</head>
+
+<body>
+    <button onclick="speak();">Mów</button>
+</body>
+
+</html>
