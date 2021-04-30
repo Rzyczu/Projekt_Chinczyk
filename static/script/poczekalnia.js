@@ -71,7 +71,7 @@ const poczekalnia = {
     synchronizujPoczkelanie() {
         this.synchronizacjaUzytkownikowInt = setInterval(() => {
             this.pobierzUzytkownikow()
-        }, 1000)
+        }, 3000)
     },
     chceGrac(e) {
         console.log(e.target.checked)
