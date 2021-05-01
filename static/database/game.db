@@ -1,1 +1,1 @@
-
+{"users":[{"nick":"saddsa","color":"red","idGracza":0,"startTime":1619820146897},{"nick":"asdasd","color":"blue","idGracza":1,"startTime":1619820177357},{"nick":"sadsad","color":"green","idGracza":2,"startTime":1619820190364},{"nick":"sadsda","color":"yellow","idGracza":3,"startTime":1619820252732}],"nicks":["saddsa","asdasd","sadsad","sadsda"],"doGry":4,"ktoChceGrac":{"red":{"chceGrac":false},"blue":{"chceGrac":false},"green":{"chceGrac":false},"yellow":{"chceGrac":false}},"dice":null,"player":0,"remainingTime":null,"_id":"4o75BP1Q0a7UdnZr"}
